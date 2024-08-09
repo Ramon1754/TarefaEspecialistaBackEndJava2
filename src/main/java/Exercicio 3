@@ -1,0 +1,27 @@
+Solução Recursiva para Fibonacci:
+
+Complexidade de Tempo: O(2n), pois cada chamada recursiva faz duas chamadas adicionais (exponencial).
+Complexidade de Espaço: O(n) para a pilha de chamadas.
+
+Programação Dinâmica:
+Top-Down:
+
+Complexidade de Tempo: O(n) devido à memorização.
+Complexidade de Espaço: O(n) para o cache.
+
+Bottom-Up:
+Complexidade de Tempo: O(n) porque calcula cada valor em ordem crescente.
+Complexidade de Espaço: O(n) para a tabela de resultados.
+
+
+
+"Por que a programação dinâmica é melhor?"
+
+A programação dinâmica é mais eficiente do que a solução recursiva direta porque
+reduz a complexidade de tempo de exponencial para lienar, evitando cálculos redundantes.
+A abordagem top-down usa memoriazação para amarzenar resultadors intermediários e evitar
+recalcular os mesmos subproblemas.
+A abordagem bottom-up constrói a solução de forma interativa a partir dos subprobleams menores,
+o que também é eficiente e evita o custo adicional da recursão.
+Ambos os métodos de programação dinâmica melhoram significativamente o desempenho em comparção
+com a abordagem recursiva direta.
